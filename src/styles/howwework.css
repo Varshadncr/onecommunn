@@ -1,0 +1,65 @@
+/* howwework.css */
+.how-we-work {
+    background: #f8f9fa;
+    padding: 2rem 0;
+  }
+  
+  .step-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step-card-top {
+    background: url('https://res.cloudinary.com/da41qeo0g/image/upload/v1736326111/pexels-pixabay-162539_ff5zbf.png') no-repeat center center;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .step-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .step-card-bottom {
+    background: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .step-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .step-description {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .grid-cols-1 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .grid-cols-1 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  

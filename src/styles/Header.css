@@ -1,0 +1,28 @@
+.header-container {
+    background-color: #002857;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    font-size: 0.85rem;
+  }
+  
+  .header-contact span {
+    margin-right: 1.5rem;
+  }
+  
+  .header-icons a {
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .header-icons .flag-icon {
+    margin-left: 1rem;
+  }
+  .icons{
+    height: 20px;
+    width: 20px;
+  }
+  .text-in{
+    font-weight: bold;
+  }
